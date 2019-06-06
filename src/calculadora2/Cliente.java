@@ -1,7 +1,6 @@
 
 package calculadora2;
 
-import java.awt.Component;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
@@ -15,7 +14,7 @@ public class Cliente implements Runnable{
     private static String enderezo;
     private static int porto;
     static boolean fin=false;
-static Socket clienteSocket;
+    static Socket clienteSocket;
     public Cliente() {
     }
     public void start(){
@@ -121,7 +120,7 @@ static Socket clienteSocket;
     
     public static void main(String[] args) {
         Cliente a= new Cliente();
-        a.run();
+        a.start();
     }
     
    
