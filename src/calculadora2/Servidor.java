@@ -18,7 +18,7 @@ import java.util.logging.Logger;
 
 /**
  *
- * @author AMD
+ * @author Celso
  */
 public class Servidor extends Thread{
     ServerSocket server;
