@@ -17,7 +17,7 @@ import java.util.logging.Logger;
 
 /**
  *
- * @author AMD
+ * @author Celso
  */
 public class Cliente extends javax.swing.JFrame{
    boolean a=false;
